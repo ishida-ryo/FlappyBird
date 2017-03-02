@@ -460,7 +460,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     func setUpSound() {
         //サウンドアクションを作成する。
-        let sound = SKAction.playSoundFileNamed("ノッポとカッパのかけっこ", waitForCompletion: true)
+        let sound = SKAction.playSoundFileNamed("羊飼いの夕餉", waitForCompletion: true)
         
         //無限ループするアクションに変更する。
         let soundLoop = SKAction.repeatForever(sound)

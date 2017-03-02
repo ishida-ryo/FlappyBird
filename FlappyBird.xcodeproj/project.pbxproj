@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6AA5C5EB1E679EFD00A46C61 /* coin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6AA5C5EA1E679EFD00A46C61 /* coin.mp3 */; };
+		6AA5C5ED1E679F3000A46C61 /* 羊飼いの夕餉.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6AA5C5EC1E679F3000A46C61 /* 羊飼いの夕餉.mp3 */; };
 		6AB427231E61D83E00527462 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB427221E61D83E00527462 /* AppDelegate.swift */; };
 		6AB427251E61D83E00527462 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB427241E61D83E00527462 /* ViewController.swift */; };
 		6AB427281E61D83E00527462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AB427261E61D83E00527462 /* Main.storyboard */; };
@@ -14,12 +16,11 @@
 		6AB4272D1E61D83E00527462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AB4272B1E61D83E00527462 /* LaunchScreen.storyboard */; };
 		6AB427361E61D8D800527462 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB427351E61D8D800527462 /* SpriteKit.framework */; };
 		6AB427381E61F7A400527462 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB427371E61F7A400527462 /* GameScene.swift */; };
-		6ADC107C1E67333F00BF09DE /* 羊飼いの夕餉.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6ADC107B1E67333F00BF09DE /* 羊飼いの夕餉.mp3 */; };
-		6ADC107E1E67344400BF09DE /* ノッポとカッパのかけっこ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6ADC107D1E67344400BF09DE /* ノッポとカッパのかけっこ.mp3 */; };
-		6ADC10801E67421E00BF09DE /* coin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6ADC107F1E67421E00BF09DE /* coin.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6AA5C5EA1E679EFD00A46C61 /* coin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coin.mp3; sourceTree = "<group>"; };
+		6AA5C5EC1E679F3000A46C61 /* 羊飼いの夕餉.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "羊飼いの夕餉.mp3"; sourceTree = "<group>"; };
 		6AB4271F1E61D83E00527462 /* FlappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AB427221E61D83E00527462 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AB427241E61D83E00527462 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,9 +30,6 @@
 		6AB4272E1E61D83E00527462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AB427351E61D8D800527462 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		6AB427371E61F7A400527462 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		6ADC107B1E67333F00BF09DE /* 羊飼いの夕餉.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "羊飼いの夕餉.mp3"; path = "../../../../Music/iTunes/iTunes Media/Music/秋山裕和(Hirokazu Akiyama);/H_MIX GALLERY/羊飼いの夕餉.mp3"; sourceTree = "<group>"; };
-		6ADC107D1E67344400BF09DE /* ノッポとカッパのかけっこ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "ノッポとカッパのかけっこ.mp3"; path = "../../../../Music/iTunes/iTunes Media/Music/秋山裕和(Hirokazu Akiyama)/童話「どろぼうの国」/ノッポとカッパのかけっこ.mp3"; sourceTree = "<group>"; };
-		6ADC107F1E67421E00BF09DE /* coin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = coin.mp3; path = "../../../../Music/iTunes/iTunes Media/Music/(c)Taira Komori/Unknown Album/coin.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,9 +69,8 @@
 				6AB427261E61D83E00527462 /* Main.storyboard */,
 				6AB427291E61D83E00527462 /* Assets.xcassets */,
 				6AB427371E61F7A400527462 /* GameScene.swift */,
-				6ADC107B1E67333F00BF09DE /* 羊飼いの夕餉.mp3 */,
-				6ADC107D1E67344400BF09DE /* ノッポとカッパのかけっこ.mp3 */,
-				6ADC107F1E67421E00BF09DE /* coin.mp3 */,
+				6AA5C5EA1E679EFD00A46C61 /* coin.mp3 */,
+				6AA5C5EC1E679F3000A46C61 /* 羊飼いの夕餉.mp3 */,
 				6AB4272B1E61D83E00527462 /* LaunchScreen.storyboard */,
 				6AB4272E1E61D83E00527462 /* Info.plist */,
 			);
@@ -147,12 +144,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ADC10801E67421E00BF09DE /* coin.mp3 in Resources */,
 				6AB4272D1E61D83E00527462 /* LaunchScreen.storyboard in Resources */,
-				6ADC107C1E67333F00BF09DE /* 羊飼いの夕餉.mp3 in Resources */,
+				6AA5C5ED1E679F3000A46C61 /* 羊飼いの夕餉.mp3 in Resources */,
+				6AA5C5EB1E679EFD00A46C61 /* coin.mp3 in Resources */,
 				6AB4272A1E61D83E00527462 /* Assets.xcassets in Resources */,
 				6AB427281E61D83E00527462 /* Main.storyboard in Resources */,
-				6ADC107E1E67344400BF09DE /* ノッポとカッパのかけっこ.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
